@@ -1,1 +1,1 @@
-#MONGODB_HOST: mongodb.reddy25.shop
+MONGODB_HOST: mongodb-{{ env }}.reddy25.shop

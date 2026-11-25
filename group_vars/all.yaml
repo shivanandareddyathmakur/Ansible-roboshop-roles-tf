@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.reddy25.shop
-REDIS_HOST: redis.reddy25.shop
-CATALOGUE_HOST: catalogue.reddy25.shop
-CART_HOST: cart.reddy25.shop
-USER_HOST: user.reddy25.shop
-RABBITMQ_HOST: rabbitmq.reddy25.shop
-MYSQL_HOST: mysql.reddy25.shop
-SHIPPING_HOST: shipping.reddy25.shop
-PAYMENT_HOST: payment.reddy25.shop
+MONGODB_HOST: mongodb-{{ env }}.reddy25.shop
+REDIS_HOST: redis-{{ env }}.reddy25.shop
+CATALOGUE_HOST: catalogue-{{ env }}.reddy25.shop
+CART_HOST: cart-{{ env }}.reddy25.shop
+USER_HOST: user-{{ env }}.reddy25.shop
+RABBITMQ_HOST: rabbitmq-{{ env }}.reddy25.shop
+MYSQL_HOST: mysql-{{ env }}.reddy25.shop
+SHIPPING_HOST: shipping-{{ env }}.reddy25.shop
+PAYMENT_HOST: payment-{{ env }}.reddy25.shop
