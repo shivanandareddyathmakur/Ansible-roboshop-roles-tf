@@ -3,6 +3,14 @@
     name: mysql-server
     state: present
 
+- name: install mysql python libraries
+  ansible.builtin.pip:
+    executable: pip3.9
+    name: "{{ item }}"
+  loop:
+  - boto3
+  - botocore
+
 - name: start and enable mysql
   ansible.builtin.service:
     name: mysqld
